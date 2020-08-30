@@ -14,7 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Build Docker
-        run: docker build . --file Dockerfile
-
-      - name: Compose Docker
-        run: docker-compose up --exit-code-from web
+        run: docker-compose build . --file Dockerfile
