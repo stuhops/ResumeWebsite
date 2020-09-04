@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <LandingHeader
+    header="Full-Stack\nDeveloper."
+    :background_image="LandingHeaderImage"
+  />
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import LandingHeader from "@/components/LandingHeader.vue";
+
+import LandingHeaderImage from "@/assets/img/landing-page/welcome.jpg";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    LandingHeader
+  },
+  data: function() {
+    return {
+      LandingHeaderImage: LandingHeaderImage
+    }
   }
 };
 </script>
