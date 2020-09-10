@@ -16,6 +16,3 @@ jobs:
       - name: Build Docker
         run: |
           docker build -t resume .
-          docker run resume
-
-
