@@ -42,11 +42,18 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Crimson, serif;
 }
 
-p, a, li {
+p,
+a,
+li {
   font-family: ProximaNova, sans-serif;
   font-size: 16px;
 }
@@ -60,7 +67,6 @@ p, a, li {
 #nav-link-custom-section {
   justify-content: center;
 }
-
 
 .borderless-button-dark {
   border-style: none;
@@ -80,7 +86,8 @@ p, a, li {
   padding: 10px 20px 10px 20px;
 }
 
-.borderless-button-light:hover, .borderless-button-dark:hover {
+.borderless-button-light:hover,
+.borderless-button-dark:hover {
   opacity: 0.7;
 }
 

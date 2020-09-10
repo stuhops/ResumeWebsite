@@ -1,6 +1,8 @@
-// TODO: Make #header-text take the prop header and break on a new line
 <template>
-  <div class="main-container" :style="{ backgroundImage: 'url(' + background_image + ')' }">
+  <div
+    class="main-container"
+    :style="{ backgroundImage: 'url(' + background_image + ')' }"
+  >
     <div class="container">
       <h1 id="header-text">Full-Stack<br />Developer.</h1>
       <div class="links">
