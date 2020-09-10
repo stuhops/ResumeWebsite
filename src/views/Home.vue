@@ -3,21 +3,30 @@
     header="Full-Stack\nDeveloper."
     :background_image="LandingHeaderImage"
   />
+  <SingleStatementSection
+    :image="SingleStatementImage"
+    headline="My passion is full-stack web development"
+    description="Not only do I like to build great websites, I love to make them look and feel beautiful too. I don't believe a website is complete until the UX, UI, Frontend, and backend are all complete."
+  />
 </template>
 
 <script>
 import LandingHeader from "@/components/LandingHeader.vue";
+import SingleStatementSection from "@/components/SingleStatementSection.vue";
 
 import LandingHeaderImage from "@/assets/img/landing-page/welcome.jpg";
+import SingleStatementImage from "@/assets/img/landing-page/project-grid.jpg";
 
 export default {
   name: "Home",
   components: {
-    LandingHeader
+    LandingHeader,
+    SingleStatementSection
   },
   data: function() {
     return {
-      LandingHeaderImage: LandingHeaderImage
+      LandingHeaderImage: LandingHeaderImage,
+      SingleStatementImage: SingleStatementImage
     };
   }
 };
