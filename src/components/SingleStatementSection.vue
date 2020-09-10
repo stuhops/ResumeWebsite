@@ -1,0 +1,81 @@
+<template>
+  <div id="main-container">
+    <div id="secondary-container">
+      <img id="image" :src="image" />
+      <div id="statement">
+        <h2>{{ headline }}</h2>
+        <p>{{ description }}</p>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "SingleStatementSection",
+  props: {
+    image: String,
+    headline: String,
+    description: String
+  }
+};
+</script>
+
+<style scoped>
+* {
+  color: #202020;
+}
+
+h2 {
+  font-size: clamp(48px, 3vw, 72px);
+}
+
+#header-text {
+  flex: 1;
+  font-size: clamp(72px, 8vw, 120px);
+  margin: 0;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image {
+  flex: 1;
+  max-height: 75vh;
+  min-width: 200px;
+  width: 20vw;
+  max-width: 500px;
+  object-fit: cover;
+  padding: 0 5vw 0 0;
+}
+
+#main-container {
+  width: 100vw;
+  max-width: 100vw;
+  min-height: 130vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#secondary-container {
+  flex: 1;
+  max-width: 1396px;
+  margin: 5vh 10vw 5vh 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#statement {
+  flex: 1;
+}
+</style>

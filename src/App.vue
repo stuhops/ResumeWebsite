@@ -36,6 +36,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #f5f5f5;
+  box-sizing: border-box;
 }
 
 body {
@@ -56,6 +57,10 @@ a,
 li {
   font-family: ProximaNova, sans-serif;
   font-size: 16px;
+}
+
+p {
+  line-height: 2;
 }
 
 #nav {
