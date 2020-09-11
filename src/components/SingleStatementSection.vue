@@ -55,6 +55,7 @@ h2 {
   width: 100vw;
   max-width: 100vw;
   min-height: 130vh;
+  padding: 48px 8px 48px 8px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;

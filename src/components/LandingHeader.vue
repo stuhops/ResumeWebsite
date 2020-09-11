@@ -6,8 +6,10 @@
     <div class="container">
       <h1 id="header-text">Full-Stack<br />Developer.</h1>
       <div class="links">
-        <a>
+        <a href="#">
           <button class="outlined-button-light">Contact Me Today</button>
+        </a>
+        <a href="#">
           <button class="borderless-button-light">Download Resume</button>
         </a>
       </div>

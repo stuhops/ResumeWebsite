@@ -74,6 +74,7 @@ p {
 }
 
 .borderless-button-dark {
+  max-width: 90vw;
   border-style: none;
   background-color: transparent;
   color: #202020;
@@ -83,6 +84,7 @@ p {
 }
 
 .borderless-button-light {
+  max-width: 90vw;
   border-style: none;
   background-color: transparent;
   color: #f5f5f5;
@@ -97,6 +99,7 @@ p {
 }
 
 .outlined-button-dark {
+  max-width: 90vw;
   border-style: solid;
   border-color: #202020;
   background-color: transparent;
@@ -114,6 +117,7 @@ p {
 }
 
 .outlined-button-light {
+  max-width: 90vw;
   border-style: solid;
   border-color: #f5f5f5;
   background-color: transparent;
