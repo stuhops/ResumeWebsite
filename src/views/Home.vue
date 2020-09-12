@@ -4,7 +4,7 @@
     :background_image="LandingHeaderImage"
   />
   <SingleStatementSection
-    :image="SingleStatementImage"
+    :image="CodeSnippitImage"
     headline="My passion is full-stack web development"
     description="Not only do I like to build great websites, I love to make them look and feel beautiful too. I don't believe a website is complete until the UX, UI, Frontend, and backend are all complete."
   />
@@ -14,9 +14,9 @@
   <TriplePictureStatementSection
     headline="My Work"
     description="I love working on personal projects and learning new things. Here are some highlights."
-    :image1="SingleStatementImage"
-    :image2="SingleStatementImage"
-    :image3="SingleStatementImage"
+    :image1="MoviemaniaImage"
+    :image2="FroggerImage"
+    :image3="AuctionitImage"
   />
 </template>
 
@@ -26,7 +26,11 @@ import MyStackSection from "@/components/home/MyStackSection.vue"
 import SingleStatementSection from "@/components/SingleStatementSection.vue";
 import TriplePictureStatementSection from "@/components/TriplePictureStatementSection.vue";
 
+import AuctionitImage from "@/assets/img/landing-page/auctionit_signup.png";
+import CodeSnippitImage from "@/assets/img/landing-page/code_snippit43.png";
+import FroggerImage from "@/assets/img/landing-page/frogger.png";
 import LandingHeaderImage from "@/assets/img/landing-page/welcome.jpg";
+import MoviemaniaImage from "@/assets/img/landing-page/moviemania.png";
 import SingleStatementImage from "@/assets/img/landing-page/project-grid.jpg";
 
 export default {
@@ -39,7 +43,11 @@ export default {
   },
   data: function() {
     return {
+      AuctionitImage: AuctionitImage,
+      CodeSnippitImage: CodeSnippitImage,
+      FroggerImage: FroggerImage,
       LandingHeaderImage: LandingHeaderImage,
+      MoviemaniaImage: MoviemaniaImage,
       SingleStatementImage: SingleStatementImage
     };
   }

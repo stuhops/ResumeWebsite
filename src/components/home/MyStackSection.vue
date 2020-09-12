@@ -3,7 +3,6 @@
     <div id="secondary-container">
       <div id="statement">
         <h2 id="header-text" class="flex">{{ headline }}</h2>
-        <p class="flex">{{ description }}</p>
       </div>
       <div id="stacks">
         <div class="stack">
