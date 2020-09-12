@@ -11,7 +11,7 @@
         <img class="image" :src="image3" />
       </div>
       <a id="github" href="https://github.com/stuhops">
-        <button class="outlined-button-light">View GitHub</button>
+        <button class="outlined-button-dark">View GitHub</button>
       </a>
     </div>
   </div>
@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 * {
-  color: #f5f5f5;
+  color: #202020;
 }
 
 h2 {
@@ -70,7 +70,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-color: #202020;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;

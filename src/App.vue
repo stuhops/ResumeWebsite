@@ -52,11 +52,16 @@ h6 {
   font-family: Crimson, serif;
 }
 
-p,
 a,
+p,
 li {
   font-family: ProximaNova, sans-serif;
   font-size: 16px;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
 }
 
 p {
@@ -110,7 +115,6 @@ p {
 }
 
 .outlined-button-dark:hover {
-  border-color: #f5f5f5;
   background-color: #202020;
   color: #f5f5f5;
   text-shadow: none;
@@ -128,7 +132,6 @@ p {
 }
 
 .outlined-button-light:hover {
-  border-color: #202020;
   background-color: #f5f5f5;
   color: #202020;
   text-shadow: none;
