@@ -44,12 +44,15 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-family: Crimson, serif;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: Crimson, serif;
+  font-family: ProximaNova, sans-serif;
 }
 
 a,
@@ -66,6 +69,11 @@ button:hover {
 
 p {
   line-height: 2;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 #nav {

@@ -8,6 +8,9 @@
     headline="My passion is full-stack web development"
     description="Not only do I like to build great websites, I love to make them look and feel beautiful too. I don't believe a website is complete until the UX, UI, Frontend, and backend are all complete."
   />
+  <MyStackSection
+    headline="My Stack"
+  />
   <TriplePictureStatementSection
     headline="My Work"
     description="I love working on personal projects and learning new things. Here are some highlights."
@@ -19,6 +22,7 @@
 
 <script>
 import LandingHeader from "@/components/LandingHeader.vue";
+import MyStackSection from "@/components/home/MyStackSection.vue"
 import SingleStatementSection from "@/components/SingleStatementSection.vue";
 import TriplePictureStatementSection from "@/components/TriplePictureStatementSection.vue";
 
@@ -29,6 +33,7 @@ export default {
   name: "Home",
   components: {
     LandingHeader,
+    MyStackSection,
     SingleStatementSection,
     TriplePictureStatementSection
   },

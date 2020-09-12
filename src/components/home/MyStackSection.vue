@@ -5,14 +5,40 @@
         <h2 id="header-text" class="flex">{{ headline }}</h2>
         <p class="flex">{{ description }}</p>
       </div>
-      <div id="images">
-        <img class="image" :src="image1" />
-        <img class="image image-low" :src="image2" />
-        <img class="image" :src="image3" />
+      <div id="stacks">
+        <div class="stack">
+          <h3>Day to Day use</h3>
+          <ul class="stack-list">
+            <li>Django</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Linux</li>
+            <li>PostgreSQL</li>
+            <li>Git</li>
+            <li>HTML / CSS</li>
+          </ul>
+        </div>
+        <div class="stack">
+          <h3>Good understanding</h3>
+          <ul class="stack-list">
+            <li>Vue</li>
+            <li>Docker</li>
+            <li>GitHub Actions</li>
+            <li>C++</li>
+            <li>UX / UI</li>
+          </ul>
+        </div>
+        <div class="stack">
+          <h3>Familiarity with</h3>
+          <ul class="stack-list">
+            <li>React</li>
+            <li>React Native</li>
+            <li>Node.js</li>
+            <li>Flask</li>
+            <li>Java</li>
+          </ul>
+        </div>
       </div>
-      <a id="github" href="https://github.com/stuhops">
-        <button class="outlined-button-dark">View GitHub</button>
-      </a>
     </div>
   </div>
 </template>
@@ -31,7 +57,11 @@ export default {
 
 <style scoped>
 * {
-  color: #202020;
+  color: #f5f5f5;
+}
+
+h3 {
+  text-align: center;
 }
 
 #content-container {
@@ -40,47 +70,45 @@ export default {
   align-items: center;
 }
 
-#github {
-  max-width: 80vw;
-  margin-top: 72px;
-}
-
 #header-text {
   flex: 1;
   font-size: clamp(48px, 5vw, 72px);
   margin: 0;
 }
 
-#images {
-  max-width: 1396px;
-  width: 95vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
 #main-container {
   width: 100vw;
   max-width: 100vw;
-  min-height: 130vh;
+  min-height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-color: #f5f5f5;
+  background-color: #202020;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #secondary-container {
+  border-style: solid;
+  border-color: #f5f5f5;
   flex: 1;
   max-width: 1396px;
-  margin: 25vh 10vw 25vh 10vw;
+  margin: 10vh 20vw 10vh 20vw;
+  padding: 64px 0 64px 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#stacks {
+  max-width: 1396px;
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -98,26 +126,28 @@ export default {
   flex: 1;
 }
 
-.image {
+.stack {
   flex: 1;
+  justify-content: center;
   max-width: 364px;
   width: 20vw;
   min-width: 100px;
   margin: 14px 3vw 14px 3vw;
 }
 
-@media screen and (min-width: 527px) {
-  .image-low {
-    margin-top: 128px;
-  }
+.stack-list {
+  flex: 1;
+  width: auto;
+  display: table;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 526px) {
-  #images {
+  #stacks {
     flex-direction: column;
   }
 
-  .image {
+  .stack {
     flex: 1;
     width: 100%;
   }
