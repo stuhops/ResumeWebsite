@@ -48,6 +48,14 @@ h2 {
   color: #f5f5f5;
 }
 
+h1 {
+  font-size: clamp(72px, 8vw, 120px);
+}
+
+h2 {
+  font-size: clamp(48px, 5vw, 72px);
+}
+
 h3,
 h4,
 h5,

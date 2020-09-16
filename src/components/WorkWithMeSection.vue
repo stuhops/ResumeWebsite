@@ -1,16 +1,12 @@
 <template>
-  <div
-    class="main-container"
-    :style="{ backgroundImage: 'url(' + background_image + ')' }"
-  >
-    <div class="container">
-      <h1 id="header-text">Full-Stack<br />Developer.</h1>
-      <div class="links">
-        <a href="#">
-          <button class="outlined-button-light">Contact Me Today</button>
-        </a>
-        <a href="../../public/resume.pdf" download>
-          <button class="borderless-button-light">Download Resume</button>
+  <div id="main-container">
+    <div id="secondary-container">
+      <div id="statement">
+        <h2 id="header-text" class="flex">{{ headline }}</h2>
+      </div>
+      <div id="buttons">
+        <a id="email" href="mailto:stuart.hops@gmail.com">
+          <button class="outlined-button-light">Contact Me</button>
         </a>
       </div>
     </div>
@@ -18,35 +14,69 @@
 </template>
 <script>
 export default {
-  name: "WorkWithMe",
+  name: "WorkWithMeSection",
   props: {
-    background_image: String,
-    header: String
-  },
+    headline: String,
+  }
 };
 </script>
 
 <style scoped>
-#header-text {
-  flex: 1;
-  font-size: clamp(72px, 8vw, 120px);
-  margin: 0;
+* {
+  color: #f5f5f5;
+}
+
+h3 {
+  text-align: center;
   color: #E1A87A;
 }
 
-.main-container {
+#buttons {
+  margin: 32px 0 0 0;
+}
+
+#header-text {
+  flex: 1;
+  margin: 0;
+}
+
+#main-container {
   width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  min-height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  background-color: #202020;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
-.container {
+#secondary-container {
+  flex: 1;
   max-width: 1396px;
-  margin: 5vh 10vw 5vh 10vw;
+  margin: 10vh 20vw 10vh 20vw;
+  padding: 64px 0 64px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#statement {
+  max-width: 1396px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+}
+
+.flex {
+  flex: 1;
 }
 </style>

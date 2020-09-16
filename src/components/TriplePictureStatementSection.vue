@@ -47,7 +47,6 @@ export default {
 
 #header-text {
   flex: 1;
-  font-size: clamp(48px, 5vw, 72px);
   margin: 0;
 }
 

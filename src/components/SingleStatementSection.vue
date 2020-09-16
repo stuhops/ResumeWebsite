@@ -31,7 +31,6 @@ h2 {
 
 #header-text {
   flex: 1;
-  font-size: clamp(72px, 8vw, 120px);
   margin: 0;
 }
 

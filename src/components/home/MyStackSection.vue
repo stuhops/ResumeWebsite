@@ -43,7 +43,7 @@
 </template>
 <script>
 export default {
-  name: "TriplePictureStatementSection",
+  name: "MyStackSection",
   props: {
     headline: String,
     description: String,
@@ -72,7 +72,6 @@ h3 {
 
 #header-text {
   flex: 1;
-  font-size: clamp(48px, 5vw, 72px);
   margin: 0;
 }
 

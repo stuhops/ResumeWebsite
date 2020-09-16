@@ -18,6 +18,9 @@
     :image2="FroggerImage"
     :image3="AuctionitImage"
   />
+  <WorkWithMeSection
+    headline="So you like what you see?\nLet's get together"
+  />
 </template>
 
 <script>
@@ -25,6 +28,7 @@ import LandingHeader from "@/components/LandingHeader.vue";
 import MyStackSection from "@/components/home/MyStackSection.vue"
 import SingleStatementSection from "@/components/SingleStatementSection.vue";
 import TriplePictureStatementSection from "@/components/TriplePictureStatementSection.vue";
+import WorkWithMeSection from "@/components/WorkWithMeSection.vue";
 
 import AuctionitImage from "@/assets/img/landing-page/auctionit_signup.png";
 import CodeSnippitImage from "@/assets/img/landing-page/code_snippit43.png";
@@ -39,7 +43,8 @@ export default {
     LandingHeader,
     MyStackSection,
     SingleStatementSection,
-    TriplePictureStatementSection
+    TriplePictureStatementSection,
+    WorkWithMeSection
   },
   data: function() {
     return {
