@@ -1,7 +1,12 @@
 <template>
   <div id="main-container">
     <div id="secondary-container">
-      <img id="image" :src="image" />
+      <div id="image-container">
+        <Image4x3
+          id="image" 
+          :image="image"
+        />
+      </div>
       <div id="statement">
         <h2>{{ headline }}</h2>
         <p>{{ description }}</p>
@@ -9,13 +14,19 @@
     </div>
   </div>
 </template>
+
 <script>
+import Image4x3 from "@/components/Image4x3.vue";
+
 export default {
   name: "SingleStatementSection",
   props: {
     image: String,
     headline: String,
     description: String
+  },
+  components: {
+    Image4x3
   }
 };
 </script>
@@ -42,12 +53,18 @@ h2 {
 
 #image {
   flex: 1;
-  max-height: 75vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+#image-container {
+  flex: 1;
   min-width: 200px;
   width: 20vw;
   max-width: 500px;
-  object-fit: cover;
-  padding: 0 5vw 0 0;
+  height: 100%;
+  margin: 0 5vw 0 0;
 }
 
 #main-container {
