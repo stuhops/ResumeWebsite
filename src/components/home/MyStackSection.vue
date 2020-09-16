@@ -61,6 +61,7 @@ export default {
 
 h3 {
   text-align: center;
+  color: #E1A87A;
 }
 
 #content-container {
@@ -89,8 +90,6 @@ h3 {
 }
 
 #secondary-container {
-  border-style: solid;
-  border-color: #f5f5f5;
   flex: 1;
   max-width: 1396px;
   margin: 10vh 20vw 10vh 20vw;

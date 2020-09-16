@@ -35,7 +35,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #f5f5f5;
   box-sizing: border-box;
 }
 
@@ -46,6 +45,7 @@ body {
 h1,
 h2 {
   font-family: Crimson, serif;
+  color: #f5f5f5;
 }
 
 h3,
@@ -53,6 +53,7 @@ h4,
 h5,
 h6 {
   font-family: ProximaNova, sans-serif;
+  color: #E1A87A;
 }
 
 a,
@@ -60,6 +61,7 @@ p,
 li {
   font-family: ProximaNova, sans-serif;
   font-size: 16px;
+  color: #f5f5f5;
 }
 
 a:hover,
@@ -74,6 +76,7 @@ p {
 ul {
   list-style-type: circle;
   list-style-position: inside;
+  color: #f5f5f5;
 }
 
 #nav {
@@ -114,7 +117,7 @@ ul {
 .outlined-button-dark {
   max-width: 90vw;
   border-style: solid;
-  border-color: #202020;
+  border-color: #E1A87A;
   background-color: transparent;
   color: #202020;
   text-shadow: 0px 0px 10px #f5f5f5;
@@ -131,7 +134,7 @@ ul {
 .outlined-button-light {
   max-width: 90vw;
   border-style: solid;
-  border-color: #f5f5f5;
+  border-color: #E1A87A;
   background-color: transparent;
   color: #f5f5f5;
   text-shadow: 0px 0px 10px #202020;
