@@ -2,7 +2,7 @@
   <div id="main-container">
     <div id="secondary-container">
       <div id="statement">
-        <h2 id="header-text" class="flex">{{ headline }}</h2>
+        <h2 id="header-text" class="flex">So you like what you see?<br />Let's get together</h2>
       </div>
       <div id="buttons">
         <a id="email" href="mailto:stuart.hops@gmail.com">
