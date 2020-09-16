@@ -1,6 +1,6 @@
 <template>
   <div
-    class="main-container"
+    id="main-container"
     :style="{ backgroundImage: 'url(' + background_image + ')' }"
   >
     <div class="container">
@@ -32,7 +32,7 @@ export default {
   margin: 0;
 }
 
-.main-container {
+#main-container {
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
