@@ -49,7 +49,7 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(72px, 8vw, 120px);
+  font-size: clamp(56px, 8vw, 120px);
 }
 
 h2 {
@@ -104,7 +104,7 @@ ul {
   color: #202020;
   text-shadow: 0px 0px 10px #f5f5f5;
   text-shadow: 0px 0px 10px #f5f5f5;
-  padding: 10px 20px 10px 20px;
+  padding: 20px 40px 20px 40px;
 }
 
 .borderless-button-light {
@@ -114,7 +114,7 @@ ul {
   color: #f5f5f5;
   text-shadow: 0px 0px 10px #202020;
   text-shadow: 0px 0px 10px #202020;
-  padding: 10px 20px 10px 20px;
+  padding: 20px 40px 20px 40px;
 }
 
 .borderless-button-light:hover,

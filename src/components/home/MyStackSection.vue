@@ -113,6 +113,7 @@ h3 {
   width: 100%;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   display: flex;
   flex: 1;

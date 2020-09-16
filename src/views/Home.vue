@@ -6,7 +6,7 @@
   <SingleStatementSection
     :image="CodeSnippitImage"
     headline="My passion is full-stack web development"
-    description="Not only do I like to build great websites, I love to make them look and feel beautiful too. I don't believe a website is complete until the UX, UI, Frontend, and backend are all complete."
+    description="Not only do I like to build great websites, I love to make them look and feel beautiful too. I don't believe a website is complete until the frontend, backend, and documentation are all finished."
   />
   <MyStackSection
     headline="Let's talk about my stack"

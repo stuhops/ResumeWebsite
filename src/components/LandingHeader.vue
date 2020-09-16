@@ -9,7 +9,7 @@
         <a href="mailto:stuart.hops@gmail.com">
           <button class="outlined-button-light">Contact Me Today</button>
         </a>
-        <a href="../../public/resume.pdf" download>
+        <a id="resume" href="../../public/resume.pdf" download>
           <button class="borderless-button-light">Download Resume</button>
         </a>
       </div>

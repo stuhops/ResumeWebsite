@@ -55,7 +55,6 @@ h3 {
 #secondary-container {
   flex: 1;
   max-width: 1396px;
-  margin: 10vh 20vw 10vh 20vw;
   padding: 64px 0 64px 0;
   display: flex;
   justify-content: flex-start;
