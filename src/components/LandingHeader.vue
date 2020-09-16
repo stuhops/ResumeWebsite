@@ -6,7 +6,7 @@
     <div class="container">
       <h1 id="header-text">Full-Stack<br />Developer.</h1>
       <div class="links">
-        <a href="#">
+        <a href="mailto:stuart.hops@gmail.com">
           <button class="outlined-button-light">Contact Me Today</button>
         </a>
         <a href="../../public/resume.pdf" download>
