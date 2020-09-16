@@ -60,7 +60,6 @@ export default {
 }
 
 #main-container {
-  width: 100vw;
   max-width: 100vw;
   min-height: 130vh;
   background-repeat: no-repeat;

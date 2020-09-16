@@ -33,7 +33,7 @@ export default {
 }
 
 #main-container {
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;

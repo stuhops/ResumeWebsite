@@ -41,7 +41,6 @@ h3 {
 }
 
 #main-container {
-  width: 100vw;
   max-width: 100vw;
   min-height: 50vh;
   background-repeat: no-repeat;
