@@ -25,11 +25,16 @@
     image3Url="https://github.com/stuhops/AuctionIt"
   />
   <WorkWithMeSection headline="So you like what you see?\nLet's get together" />
+  <PhotoGridSection 
+    headline="My life outside of programming" 
+    description="Being a good programmer is made easier when you have interests outside of the office. Here is a partial look at my life beyond development."
+  />
 </template>
 
 <script>
 import LandingHeader from "@/components/LandingHeader.vue";
 import MyStackSection from "@/components/home/MyStackSection.vue";
+import PhotoGridSection from "@/components/home/PhotoGridSection.vue";
 import SingleStatementSection from "@/components/SingleStatementSection.vue";
 import TriplePictureStatementSection from "@/components/TriplePictureStatementSection.vue";
 import WorkWithMeSection from "@/components/WorkWithMeSection.vue";
@@ -46,6 +51,7 @@ export default {
   components: {
     LandingHeader,
     MyStackSection,
+    PhotoGridSection,
     SingleStatementSection,
     TriplePictureStatementSection,
     WorkWithMeSection

@@ -1,10 +1,10 @@
 <template>
-  <div id="container43">
-    <div id="image43" :style="{ backgroundImage: 'url(' + image + ')' }">
-      <div v-if="headline || url" id="content43">
-        <div id="content-container43">
-          <h3 v-if="headline" id="headline43">{{ headline }}</h3>
-          <a v-if="url" id="button43" :href="url">
+  <div id="container11">
+    <div id="image11" :style="{ backgroundImage: 'url(' + image + ')' }">
+      <div v-if="url || headline" id="content11">
+        <div id="content-container11">
+          <h3 v-if="headline" id="headline11">{{ headline }}</h3>
+          <a v-if="url" id="button11" :href="url">
             <button class="outlined-button-light">View Project</button>
           </a>
         </div>
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "Image4x3",
+  name: "Image1x1",
   props: {
     headline: String,
     image: String,
@@ -25,11 +25,11 @@ export default {
 </script>
 
 <style scoped>
-#button43 {
+#button11 {
   margin: 0;
 }
 
-#container43 {
+#container11 {
   height: 100%;
   width: 100%;
   display: flex;
@@ -37,7 +37,7 @@ export default {
   align-items: center;
 }
 
-#content43 {
+#content11 {
   position: absolute;
   top: 0;
   left: 0;
@@ -49,7 +49,7 @@ export default {
   z-index: 1;
 }
 
-#content-container43 {
+#content-container11 {
   display: flex;
   background-color: rgba(0, 0, 0, 0.5);
   flex: 1;
@@ -60,13 +60,13 @@ export default {
 
 
 @media (hover: hover) {
-  #content-container43 {
+  #content-container11 {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 0.5s, opacity 0.5s linear;
   }
 
-  #image43:hover #content-container43 {
+  #image11:hover #content-container11 {
     visibility: visible;
     opacity: 1;
     transition-delay: 0s;
@@ -74,22 +74,22 @@ export default {
 }
 
 @media (hover: none) {
-  #content-container43 {
+  #content-container11 {
     visibility: visible;
   }
 }
 
-#headline43 {
+#headline11 {
   margin: 8px 0 8px 0;
   text-shadow: 0px 0px 10px #000000;
   text-shadow: 0px 0px 10px #000000;
 }
 
-#image43 {
+#image11 {
   flex: 1;
   width: 100%;
   object-fit: cover;
-  padding: 133% 0 0 0;
+  padding: 100% 0 0 0;
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
