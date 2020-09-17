@@ -9,7 +9,7 @@
         <a href="mailto:stuart.hops@gmail.com">
           <button class="outlined-button-light">Contact Me Today</button>
         </a>
-        <a id="resume" href="../../public/resume.pdf" download>
+        <a id="resume" href="/resume.pdf" download>
           <button class="borderless-button-light">Download Resume</button>
         </a>
       </div>
@@ -22,7 +22,7 @@ export default {
   props: {
     background_image: String,
     header: String
-  },
+  }
 };
 </script>
 
