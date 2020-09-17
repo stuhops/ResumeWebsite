@@ -6,7 +6,6 @@
           id="projectImage"
           :image="projectImage"
           :headline="projectHeadline"
-          :description="projectDescription"
           :url="projectUrl"
         />
       </div>

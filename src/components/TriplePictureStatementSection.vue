@@ -6,9 +6,24 @@
         <p class="flex">{{ description }}</p>
       </div>
       <div id="images">
-        <img class="image" :src="image1" />
-        <img class="image image-low" :src="image2" />
-        <img class="image" :src="image3" />
+        <Image4x3
+          class="image" 
+          :image="image1"
+          :headline="image1Headline"
+          :url="image1Url"
+        />
+        <Image4x3
+          class="image image-low" 
+          :image="image2"
+          :headline="image2Headline"
+          :url="image2Url"
+        />
+        <Image4x3
+          class="image" 
+          :image="image3"
+          :headline="image3Headline"
+          :url="image3Url"
+        />
       </div>
       <a id="github" href="https://github.com/stuhops">
         <button class="outlined-button-dark">View GitHub</button>
@@ -16,15 +31,27 @@
     </div>
   </div>
 </template>
+
 <script>
+import Image4x3 from "@/components/Image4x3.vue";
+
 export default {
   name: "TriplePictureStatementSection",
   props: {
     headline: String,
     description: String,
     image1: String,
+    image1Headline: String,
+    image1Url: String,
     image2: String,
-    image3: String
+    image2Headline: String,
+    image2Url: String,
+    image3: String,
+    image3Headline: String,
+    image3Url: String
+  },
+  components: {
+    Image4x3
   }
 };
 </script>

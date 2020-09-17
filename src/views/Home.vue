@@ -8,15 +8,21 @@
     headline="My passion is full-stack web development"
     projectHeadline="Auctionit"
     :projectImage="CodeSnippitImage"
-    projectUrl=""
+    projectUrl="https://github.com/stuhops/AuctionIt"
   />
   <MyStackSection headline="Let's talk about my stack" />
   <TriplePictureStatementSection
     headline="My Work"
     description="I love working on personal projects and learning new things. Here are some highlights."
     :image1="MoviemaniaImage"
+    image1Headline="Movie Mania"
+    image1Url="https://github.com/stuhops/cs3200-moviemania-assn4"
     :image2="FroggerImage"
+    image2Headline="Frogger"
+    image2Url="https://github.com/stuhops/cs5410-frogger-assn4"
     :image3="AuctionitImage"
+    image3Headline="AuctionIt"
+    image3Url="https://github.com/stuhops/AuctionIt"
   />
   <WorkWithMeSection headline="So you like what you see?\nLet's get together" />
 </template>
