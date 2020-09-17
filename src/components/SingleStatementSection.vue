@@ -3,8 +3,11 @@
     <div id="secondary-container">
       <div id="image-container">
         <Image4x3
-          id="image" 
-          :image="image"
+          id="projectImage"
+          :image="projectImage"
+          :headline="projectHeadline"
+          :description="projectDescription"
+          :url="projectUrl"
         />
       </div>
       <div id="statement">
@@ -21,9 +24,12 @@ import Image4x3 from "@/components/Image4x3.vue";
 export default {
   name: "SingleStatementSection",
   props: {
-    image: String,
+    description: String,
     headline: String,
-    description: String
+    projectDescription: String,
+    projectHeadline: String,
+    projectImage: String,
+    projectUrl: String
   },
   components: {
     Image4x3

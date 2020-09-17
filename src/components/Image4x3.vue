@@ -2,6 +2,12 @@
   <div id="container43">
     <div id="image43" :style="{ backgroundImage: 'url(' + image + ')' }">
       <div id="content43">
+        <div id="content-container43">
+          <h3 id="headline43">{{ headline }}</h3>
+          <a id="button43" :href="url">
+            <button class="outlined-button-light">View Project</button>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -11,14 +17,18 @@
 export default {
   name: "Image4x3",
   props: {
-    image: String,
     headline: String,
-    description: String
+    image: String,
+    url: String
   }
 };
 </script>
 
 <style scoped>
+#button43 {
+  margin: 0;
+}
+
 #container43 {
   height: 100%;
   width: 100%;
@@ -28,7 +38,35 @@ export default {
 }
 
 #content43 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  z-index: 1;
+}
 
+#content-container43 {
+  visibility: hidden;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image43:hover #content-container43 {
+  visibility: visible;
+}
+
+#headline43 {
+  margin: 8px 0 8px 0;
+  text-shadow: 0px 0px 10px #000000;
+  text-shadow: 0px 0px 10px #000000;
 }
 
 #image43 {
@@ -39,5 +77,11 @@ export default {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.flex {
+  flex: 1;
+  justify-content: center;
+  align-content: center;
 }
 </style>

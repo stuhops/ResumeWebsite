@@ -61,7 +61,7 @@ h4,
 h5,
 h6 {
   font-family: ProximaNova, sans-serif;
-  color: #E1A87A;
+  color: #e1a87a;
 }
 
 a,
@@ -125,7 +125,7 @@ ul {
 .outlined-button-dark {
   max-width: 90vw;
   border-style: solid;
-  border-color: #E1A87A;
+  border-color: #e1a87a;
   background-color: transparent;
   color: #202020;
   text-shadow: 0px 0px 10px #f5f5f5;
@@ -142,7 +142,7 @@ ul {
 .outlined-button-light {
   max-width: 90vw;
   border-style: solid;
-  border-color: #E1A87A;
+  border-color: #e1a87a;
   background-color: transparent;
   color: #f5f5f5;
   text-shadow: 0px 0px 10px #202020;
