@@ -24,11 +24,12 @@
     image3Headline="AuctionIt"
     image3Url="https://github.com/stuhops/AuctionIt"
   />
-  <WorkWithMeSection headline="So you like what you see?\nLet's get together" />
+  <WorkWithMeSection headline="So you like what you see? Let's get together" />
   <PhotoGridSection 
     headline="My life outside of programming" 
     description="Being a good programmer is made easier when you have interests outside of the office. Here is a partial look at my life beyond development."
   />
+  <WorkWithMeSection headline="Now that you know me a little better, let's talk" />
 </template>
 
 <script>
