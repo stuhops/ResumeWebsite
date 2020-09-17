@@ -50,7 +50,6 @@ export default {
 }
 
 #content-container43 {
-  visibility: hidden;
   display: flex;
   background-color: rgba(0, 0, 0, 0.5);
   flex: 1;
@@ -59,8 +58,25 @@ export default {
   flex-direction: column;
 }
 
-#image43:hover #content-container43 {
-  visibility: visible;
+
+@media (hover: hover) {
+  #content-container43 {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+  }
+
+  #image43:hover #content-container43 {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+  }
+}
+
+@media (hover: none) {
+  #content-container43 {
+    visibility: visible;
+  }
 }
 
 #headline43 {
