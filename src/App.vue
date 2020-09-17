@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(48px, 5vw, 72px);
+  font-size: clamp(38px, 5vw, 72px);
 }
 
 h3,

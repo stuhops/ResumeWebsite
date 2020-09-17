@@ -37,6 +37,13 @@ export default {
   align-items: center;
 }
 
+@media (max-width: 526px) {
+  #container43 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 #content43 {
   position: absolute;
   top: 0;

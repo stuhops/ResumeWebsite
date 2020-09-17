@@ -55,7 +55,7 @@ h3 {
 #secondary-container {
   flex: 1;
   max-width: 1396px;
-  padding: 64px 0 64px 0;
+  padding: 64px 8px 64px 8px;
   display: flex;
   justify-content: flex-start;
   align-items: center;

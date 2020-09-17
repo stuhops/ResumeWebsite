@@ -41,10 +41,6 @@ export default {
   color: #202020;
 }
 
-h2 {
-  font-size: clamp(48px, 3vw, 72px);
-}
-
 #header-text {
   flex: 1;
   margin: 0;
