@@ -12,39 +12,39 @@
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_bridge_mtn"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_kayak_braden"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_lp_wall"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_ski_laugh"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_many_pools"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_lp_base"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_ski_pow"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_touchstone"
         />
         <Image1x1 
           class="image-flex" 
-          :image="image_kayak_roll"
+          :image="image_west_rim"
         />
       </div>
     </div>
@@ -54,7 +54,16 @@
 <script>
 import Image1x1 from "@/components/Image1x1.vue";
 
-import image_kayak_roll from "@/assets/img/landing-page/kayak-roll.jpg"
+import image_kayak_roll from "@/assets/img/landing-page/photo-grid/kayak-roll.jpg";
+import image_bridge_mtn from "@/assets/img/landing-page/photo-grid/bridge-mtn.jpg";
+import image_kayak_braden from "@/assets/img/landing-page/photo-grid/kayak-braden.jpg";
+import image_lp_base from "@/assets/img/landing-page/photo-grid/lone-peak-base.jpg";
+import image_lp_wall from "@/assets/img/landing-page/photo-grid/lone-peak-wall.jpg";
+import image_many_pools from "@/assets/img/landing-page/photo-grid/many-pools.jpg";
+import image_ski_laugh from "@/assets/img/landing-page/photo-grid/ski-laugh.jpg";
+import image_ski_pow from "@/assets/img/landing-page/photo-grid/ski-pow.jpg";
+import image_touchstone from "@/assets/img/landing-page/photo-grid/touchstone.jpg";
+import image_west_rim from "@/assets/img/landing-page/photo-grid/west-rim.jpg";
 
 export default {
   name: "SingleStatementSection",
@@ -71,7 +80,16 @@ export default {
   },
   data: function() {
     return {
-      image_kayak_roll: image_kayak_roll
+      image_kayak_roll: image_kayak_roll,
+      image_bridge_mtn: image_bridge_mtn,
+      image_kayak_braden: image_kayak_braden,
+      image_lp_base: image_lp_base,
+      image_lp_wall: image_lp_wall,
+      image_many_pools: image_many_pools,
+      image_ski_laugh: image_ski_laugh,
+      image_ski_pow: image_ski_pow,
+      image_touchstone: image_touchstone,
+      image_west_rim: image_west_rim
     }
   }
 };
@@ -83,7 +101,7 @@ export default {
 }
 
 h2 {
-  font-size: clamp(48px, 3vw, 72px);
+  margin-bottom: 8px;
 }
 
 #header-text {
@@ -133,6 +151,7 @@ h2 {
 
 #statement {
   flex: 1;
+  text-align: center
 }
 
 .image-flex {
