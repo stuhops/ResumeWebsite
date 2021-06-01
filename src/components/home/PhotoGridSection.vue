@@ -52,18 +52,19 @@
 </template>
 
 <script>
+const STATIC_URL = "http://34.117.238.34:80";
 import Image1x1 from "@/components/Image1x1.vue";
 
-import image_kayak_roll from "@/assets/img/landing-page/photo-grid/kayak-roll.jpg";
-import image_bridge_mtn from "@/assets/img/landing-page/photo-grid/bridge-mtn.jpg";
-import image_kayak_braden from "@/assets/img/landing-page/photo-grid/kayak-braden.jpg";
-import image_lp_base from "@/assets/img/landing-page/photo-grid/lone-peak-base.jpg";
-import image_lp_wall from "@/assets/img/landing-page/photo-grid/lone-peak-wall.jpg";
-import image_many_pools from "@/assets/img/landing-page/photo-grid/many-pools.jpg";
-import image_ski_laugh from "@/assets/img/landing-page/photo-grid/ski-laugh.jpg";
-import image_ski_pow from "@/assets/img/landing-page/photo-grid/ski-pow.jpg";
-import image_touchstone from "@/assets/img/landing-page/photo-grid/touchstone.jpg";
-import image_west_rim from "@/assets/img/landing-page/photo-grid/west-rim.jpg";
+const image_kayak_roll = `${STATIC_URL}/img/landing-page/photo-grid/kayak-roll.jpg`;
+const image_bridge_mtn = `${STATIC_URL}/img/landing-page/photo-grid/bridge-mtn.jpg`;
+const image_kayak_braden = `${STATIC_URL}/img/landing-page/photo-grid/kayak-braden.jpg`;
+const image_lp_base = `${STATIC_URL}/img/landing-page/photo-grid/lone-peak-base.jpg`;
+const image_lp_wall = `${STATIC_URL}/img/landing-page/photo-grid/lone-peak-wall.jpg`;
+const image_many_pools = `${STATIC_URL}/img/landing-page/photo-grid/many-pools.jpg`;
+const image_ski_laugh = `${STATIC_URL}/img/landing-page/photo-grid/ski-laugh.jpg`;
+const image_ski_pow = `${STATIC_URL}/img/landing-page/photo-grid/ski-pow.jpg`;
+const image_touchstone = `${STATIC_URL}/img/landing-page/photo-grid/touchstone.jpg`;
+const image_west_rim = `${STATIC_URL}/img/landing-page/photo-grid/west-rim.jpg`;
 
 export default {
   name: "SingleStatementSection",
