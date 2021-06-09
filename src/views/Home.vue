@@ -33,8 +33,6 @@
 </template>
 
 <script>
-const STATIC_URL = "http://34.117.238.34:80"
-
 import LandingHeader from "@/components/LandingHeader.vue";
 import MyStackSection from "@/components/home/MyStackSection.vue";
 import PhotoGridSection from "@/components/home/PhotoGridSection.vue";
@@ -42,12 +40,12 @@ import SingleStatementSection from "@/components/SingleStatementSection.vue";
 import TriplePictureStatementSection from "@/components/TriplePictureStatementSection.vue";
 import WorkWithMeSection from "@/components/WorkWithMeSection.vue";
 
-const AuctionitImage = `${STATIC_URL}/img/landing-page/auctionit_signup.png`;
-const CodeSnippitImage = `${STATIC_URL}/img/landing-page/code_snippit43.png`;
-const FroggerImage = `${STATIC_URL}/img/landing-page/frogger.png`;
-const LandingHeaderImage = `${STATIC_URL}/img/landing-page/welcome.jpg`;
-const MoviemaniaImage = `${STATIC_URL}/img/landing-page/moviemania.png`;
-const SingleStatementImage = `${STATIC_URL}/img/landing-page/project-grid.jpg`;
+import AuctionitImage from "@/assets/img/landing-page/auctionit_signup.png";
+import CodeSnippitImage from "@/assets/img/landing-page/code_snippit43.png";
+import FroggerImage from "@/assets/img/landing-page/frogger.png";
+import LandingHeaderImage from "@/assets/img/landing-page/welcome.jpg";
+import MoviemaniaImage from "@/assets/img/landing-page/moviemania.png";
+import SingleStatementImage from "@/assets/img/landing-page/project-grid.jpg";
 
 export default {
   name: "Home",
